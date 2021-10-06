@@ -3,7 +3,7 @@ describe('API testing', () => {
 
     it('first one', () => {
 
-        Cy.visit('https://rahulshettyacademy.com/angularAppdemo')
+        cy.visit('https://rahulshettyacademy.com/angularAppdemo')
 
         cy.intercept({
             method : 'GET',
